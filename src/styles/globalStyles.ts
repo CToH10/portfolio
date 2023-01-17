@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
 }
 
-body, h1, h2, h3, h4, ul, li, p, button {
+body, header, nav, h1, h2, h3, h4, ul, li, p, button {
     list-style: none;
     margin: 0;
     padding: 0;

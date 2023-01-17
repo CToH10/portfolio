@@ -1,9 +1,8 @@
-import { JsxElement } from "typescript";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 
 interface iBase {
-  children?: JsxElement;
+  children?: React.ReactNode;
 }
 
 export const BaseLayout = ({ children }: iBase) => {

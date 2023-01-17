@@ -14,7 +14,7 @@ export const StyledHeader = styled.header<iStyledHeader>`
 
   box-shadow: 0px 2px 4px 0px var(--color-grey-shadow);
 
-  width: clamp(320px, 100%, 330px);
+  width: 100%;
   height: clamp(65px, 10vh, 70px);
 
   display: flex;
@@ -54,9 +54,9 @@ export const StyledHeader = styled.header<iStyledHeader>`
     width: 9vw;
     height: 5vh;
 
-    /* @media (min-width: 700px) {
+    @media (min-width: 700px) {
       display: none;
-    } */
+    }
 
     svg {
       display: block;
