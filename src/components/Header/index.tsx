@@ -1,6 +1,9 @@
 import { NavList } from "../NavList";
 import { StyledHeader } from "./style";
-import { FaHamburger } from "react-icons/fa";
+import {
+  FaHamburger,
+  // ,FaBars
+} from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import { useState } from "react";
 
