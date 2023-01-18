@@ -25,9 +25,7 @@ export const StyledFooter = styled.footer`
     width: 95%;
     margin: 0 auto;
 
-    @media (min-width: 700px) {
-      justify-content: space-between;
-    }
+    justify-content: space-between;
 
     h3 {
       font-size: var(--font-size-20);
