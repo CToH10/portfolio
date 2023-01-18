@@ -21,6 +21,12 @@ export const StyledHeader = styled.header<iStyledHeader>`
   justify-content: space-around;
   align-items: center;
 
+  h1 {
+    cursor: pointer;
+    font-size: var(--font-size-32);
+    font-weight: var(--semiBold);
+  }
+
   nav {
     position: absolute;
     top: 10vh;

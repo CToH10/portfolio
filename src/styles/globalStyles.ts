@@ -24,6 +24,10 @@ export const GlobalStyle = createGlobalStyle`
    --font-size-16: 1rem;
    --font-size-14: 0.875rem;
    --font-size-12: 0.75rem;
+
+   --semiBold: 600;
+   --regular: 500;
+   --light: 400;
 }
 
 * {
