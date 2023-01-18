@@ -12,7 +12,7 @@ export const Header = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <StyledHeader display={isOpen}>
+    <StyledHeader display={isOpen.toString()}>
       <h1 onClick={() => navigate("/")}>Luís Nunes</h1>
 
       <NavList />

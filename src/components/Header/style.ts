@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface iStyledHeader {
-  display?: boolean;
+  display?: string;
 }
 
 export const StyledHeader = styled.header<iStyledHeader>`
@@ -32,7 +32,7 @@ export const StyledHeader = styled.header<iStyledHeader>`
     top: 10vh;
     left: 5%;
 
-    display: ${({ display }) => (display ? "block" : "none")};
+    display: ${({ display }) => (display === "true" ? "block" : "none")};
 
     width: fit-content;
     width: clamp(280px, 90vw, 350px);
