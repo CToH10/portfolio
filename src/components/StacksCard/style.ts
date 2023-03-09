@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { StyledCard } from "../../styles/card.style";
 
 export const StyledStacksCard = styled(StyledCard)`
-  top: 12vh;
+  top: 11vh;
 
   flex-direction: column;
   gap: clamp(8px, 1vh, 25px);

@@ -3,11 +3,8 @@ import styled from "styled-components";
 export const StyledCard = styled.section`
   background-color: var(--color-black-opaque);
   backdrop-filter: blur(12px);
-  /* background: var(--card-moz-gradient-grey-to-black);
-  background: var(--card-webkit-gradient-grey-to-black);
-  background: var(--card-gradient-grey-to-black); */
 
-  color: var(--font-grey-60);
+  color: var(--font-black-80);
 
   position: relative;
   top: 10vh;

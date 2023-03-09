@@ -18,14 +18,17 @@ export const StacksCard = () => {
     <StyledStacksCard>
       <h4>Minhas stacks</h4>
       <section className="stacks">
-        <SiHtml5 />
-        <SiCss3 />
-        <SiJavascript />
-        <SiTypescript />
-        <SiReact onMouseEnter={() => console.log("oi")} />
-        <SiNodedotjs />
-        <SiGithub />
-        <SiJirasoftware />
+        <SiHtml5 color={"var(--color-black-80)"} />
+        <SiCss3 color={"var(--color-black-80)"} />
+        <SiJavascript color={"var(--color-black-80)"} />
+        <SiTypescript color={"var(--color-black-80)"} />
+        <SiReact
+          onMouseEnter={() => console.log("oi")}
+          color={"var(--color-black-80)"}
+        />
+        <SiNodedotjs color={"var(--color-black-80)"} />
+        <SiGithub color={"var(--color-black-80)"} />
+        <SiJirasoftware color={"var(--color-black-80)"} />
       </section>
     </StyledStacksCard>
   );

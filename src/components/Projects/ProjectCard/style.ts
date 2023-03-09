@@ -23,6 +23,6 @@ export const StyledProjectCard = styled(StyledCard)`
 
   a {
     font-size: var(--font-size-16);
-    color: var(--font-grey-60);
+    color: var(--font-black-80);
   }
 `;

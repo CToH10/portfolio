@@ -2,11 +2,17 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-   --color-black: #0b5975b3;
-   --color-black-80: #080808;
+   --color-black: #1193C2;
+   --color-black-80: #0B5975;
    --color-black-opaque: #00000033;
-   --color-grey-100: #5ecbf24d;
-   --color-grey-90: #60cef74d;
+   --color-grey-100:
+   #E0E0E0
+    /* #5ecbf24d */
+    ;
+   --color-grey-90:
+    #EDEDED
+   /* #60cef74d */
+   ;
    --color-grey-80: #E0E0E0;
    --color-grey-70: #C7C7C7;
    --color-grey-60: #EDEDED;
@@ -17,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
    --font-black: #000000;
-   --font-black-80: #080808;
+   --font-black-80: #0B5975;
    --font-grey-100: #616161;
    --font-grey-90: #7A7A7A;
    --font-grey-80: #E0E0E0;
@@ -46,9 +52,9 @@ export const GlobalStyle = createGlobalStyle`
    --radius: 4px;
    --image-radius: 100%;
 
-    --moz-gradient-grey-to-black: -moz-linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 25%, var(--color-black) 100%);
-    --webkit-gradient-grey-to-black: -webkit-linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 25%, var(--color-black) 100%);
-    --gradient-grey-to-black: linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 25%, var(--color-black) 100%);
+    --moz-gradient-grey-to-black: -moz-linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 60%, var(--color-black) 100%);
+    --webkit-gradient-grey-to-black: -webkit-linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 60%, var(--color-black) 100%);
+    --gradient-grey-to-black: linear-gradient(45deg, var(--color-grey-90) 0%, var(--color-grey-100) 60%, var(--color-black) 100%);
 
     --card-moz-gradient-grey-to-black: -moz-linear-gradient(0deg, var(--color-black-80) 0%, var(--color-grey-100) 50%, var(--color-black) 100%): -webkit-linear-gradient(0deg, var(--color-black-80) 0%, var(--color-grey-100)50%, var(--color-black) 100%);
     --card-gradient-grey-to-black: linear-gradient(0deg, var(--color-black-80) 0%, var(--color-grey-100) 50%, var(--color-black) 100%);
@@ -67,9 +73,6 @@ body, header, nav, h1, h2, h3, h4, ul, li, p, button, a, figure, figcaption, img
     text-decoration: none;
 }
 
-body {
-    background-color: var(--color-grey-90);
-}
 
 button {
     cursor: pointer;
