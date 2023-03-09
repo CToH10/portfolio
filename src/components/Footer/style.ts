@@ -12,7 +12,7 @@ export const StyledFooter = styled.footer`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 2vh;
+  gap: 1vh;
 
   position: absolute;
   bottom: 0;

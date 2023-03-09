@@ -4,7 +4,10 @@ export const StyledMain = styled.main`
   overflow: auto;
 
   width: 100%;
-  max-height: 70%;
+  min-height: 70%;
+  height: 69%;
+
+  padding-bottom: 2px;
 
   position: absolute;
   top: clamp(65px, 10vh, 70px);

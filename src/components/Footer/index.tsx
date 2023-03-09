@@ -16,7 +16,7 @@ export const Footer = () => {
         <section className="stacks">
           <h4>Stacks</h4>
           <p>
-            HTML/CSS/JS/TS
+            HTML|CSS|JS|TS
             <br />
             React.js/router-dom
             <br />
