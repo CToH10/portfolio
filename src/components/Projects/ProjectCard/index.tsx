@@ -8,7 +8,7 @@ export const ProjectCard = ({ project }: any) => {
   let moduleRegex: RegExp = /m[0-9_.-]/g;
   let sprintRegex: RegExp = /sp[0-9_.-]/g;
   let classRegex: RegExp = /t14/g;
-  let userRegex: RegExp = /ctoh10/g;
+  let userRegex: RegExp = /ctoh10|CToH10/g;
 
   if (name.match(moduleRegex)) {
     name = name.replaceAll(moduleRegex, "");
