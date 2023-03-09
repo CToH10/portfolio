@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNav = styled.nav`
-  background-color: var(--color-black);
+  background-color: inherit;
   position: relative;
   ul {
     display: flex;
@@ -9,10 +9,10 @@ export const StyledNav = styled.nav`
   }
 
   a {
-    color: var(--color-grey-60);
+    color: var(--font-grey-60);
   }
 
   .active {
-    color: var(--color-yellow);
+    color: var(--font-yellow);
   }
 `;

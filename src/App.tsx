@@ -4,6 +4,7 @@ import { RoutesProvider } from "./routes";
 import { GlobalStyle } from "./styles/globalStyles";
 
 function App() {
+  window.document.title = "Luís Nunes: Portfolio";
   return (
     <BrowserRouter>
       <GlobalStyle />

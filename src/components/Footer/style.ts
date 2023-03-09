@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background-color: var(--color-black);
-  color: var(--color-grey-60);
+  background-color: var(--color-black-80);
+
+  color: var(--font-grey-60);
   padding: 1vh 0;
 
   width: 100%;
@@ -16,6 +17,7 @@ export const StyledFooter = styled.footer`
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 2;
 
   .footerHeader {
     display: flex;
