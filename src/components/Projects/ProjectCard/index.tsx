@@ -29,13 +29,19 @@ export const ProjectCard = ({ project }: any) => {
   return (
     <>
       {project.language ? (
-        <StyledProjectCard>
-          <h4>{name}</h4>
-          <p>{project.language}</p>
-          <a href={project.html_url} target="_blank" rel="noopener noreferrer">
-            Acesse o repositório
-          </a>
-        </StyledProjectCard>
+        <li>
+          <StyledProjectCard>
+            <h4>{name}</h4>
+            <p>{project.language}</p>
+            <a
+              href={project.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Acesse o repositório
+            </a>
+          </StyledProjectCard>
+        </li>
       ) : (
         <></>
       )}

@@ -3,7 +3,7 @@ import { StyledCard } from "../../../styles/card.style";
 
 export const StyledProjectCard = styled(StyledCard)`
   flex-direction: column;
-  width: clamp(256px, 55vw, 90%);
+  width: 100%;
 
   h4 {
     font-size: var(--font-size-24);
