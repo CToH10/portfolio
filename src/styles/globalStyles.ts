@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
    --color-grey-shadow: #3D3D3D;
 
 
-   --font-black: #000000;
+   --font-black: #1193C2;
    --font-black-80: #0B5975;    
    --font-grey-100: #616161;
    --font-grey-90: #7A7A7A;
