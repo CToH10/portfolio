@@ -32,7 +32,8 @@ export const StyledContactHeader = styled.section`
   }
 
   @media (min-width: 700px) {
-    max-width: 600px;
+    width: 600px;
+    padding: 0;
   }
 `;
 
@@ -55,6 +56,7 @@ export const StyledList = styled.ul`
   li {
     width: fit-content;
     position: relative;
+    min-width: 150px;
 
     svg {
       color: var(--color-black-80);
@@ -95,8 +97,9 @@ export const StyledList = styled.ul`
     color: var(--font-black-80);
 
     position: absolute;
-    top: -1vh;
-    right: -21vw;
+    top: -5vh;
+    right: -215px;
+    right: -19vw;
 
     visibility: hidden;
   }
