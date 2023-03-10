@@ -29,6 +29,15 @@ export const StyledHeader = styled.header<iStyledHeader>`
     font-weight: var(--semiBold);
   }
 
+  @media (min-width: 700px) {
+    justify-content: center;
+    gap: 150px;
+
+    h1 {
+      width: 161px;
+    }
+  }
+
   nav {
     position: absolute;
     top: 10vh;
@@ -56,6 +65,12 @@ export const StyledHeader = styled.header<iStyledHeader>`
       top: 0;
       right: 0;
       background-color: transparent;
+      width: 289px;
+
+      ul {
+        width: 100%;
+        justify-content: space-between;
+      }
     }
   }
 
