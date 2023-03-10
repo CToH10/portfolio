@@ -11,11 +11,16 @@ export const StyledMain = styled.main`
 
   position: absolute;
   top: clamp(65px, 10vh, 70px);
+`;
+
+export const StyledGradient = styled.div`
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
 
   background: var(--color-grey-90);
   background: var(--moz-gradient-grey-to-black);
   background: var(--webkit-gradient-grey-to-black);
   background: var(--gradient-grey-to-black);
-
-  /* padding-bottom: 20px; */
 `;

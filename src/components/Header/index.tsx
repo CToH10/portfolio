@@ -17,7 +17,11 @@ export const Header = () => {
 
       <NavList />
       <button onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <CgClose /> : <FaHamburger />}
+        {isOpen ? (
+          <CgClose color="var(--font-black-80)" />
+        ) : (
+          <FaHamburger color="var(--font-black-80)" />
+        )}
       </button>
     </StyledHeader>
   );

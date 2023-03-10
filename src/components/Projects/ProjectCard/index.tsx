@@ -32,7 +32,9 @@ export const ProjectCard = ({ project }: any) => {
         <StyledProjectCard>
           <h4>{name}</h4>
           <p>{project.language}</p>
-          <a href={project.html_url}>Acesse o repositório</a>
+          <a href={project.html_url} target="_blank" rel="noopener noreferrer">
+            Acesse o repositório
+          </a>
         </StyledProjectCard>
       ) : (
         <></>

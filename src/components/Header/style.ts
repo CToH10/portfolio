@@ -5,11 +5,9 @@ interface iStyledHeader {
 }
 
 export const StyledHeader = styled.header<iStyledHeader>`
-  background-color: var(--color-black-80);
-  /* background: var(--moz-gradient-grey-to-black);
-  background: var(--webkit-gradient-grey-to-black);
-  background: var(--gradient-grey-to-black); */
-  color: var(--font-grey-60);
+  background-color: var(--color-black-opaque);
+  backdrop-filter: blur(12px);
+  color: var(--font-black-80);
 
   position: absolute;
   left: 0;
@@ -57,11 +55,12 @@ export const StyledHeader = styled.header<iStyledHeader>`
       position: relative;
       top: 0;
       right: 0;
+      background-color: transparent;
     }
   }
 
   button {
-    background-color: inherit;
+    background-color: transparent;
     border: 1px transparent var(--color-black);
     width: 9vw;
     height: 5vh;
